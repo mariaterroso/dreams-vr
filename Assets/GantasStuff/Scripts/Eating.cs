@@ -24,14 +24,25 @@ public class Eating : MonoBehaviour
     }
 
 
-    void OnCollisionEnter(Collision collision)
+    //void OnCollisionEnter(Collision collision)
+    //{
+    //    if (collision.gameObject.layer == 9)         
+    //    {
+    //        source.PlayOneShot(clip);
+    //        Destroy(collision.gameObject);
+    //    }
+
+    //}
+
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.layer == 9)         
+        if (other.gameObject.layer == 9)
         {
             source.PlayOneShot(clip);
-            Destroy(collision.gameObject);
-        }
+            Destroy(other.gameObject);
 
+        }
     }
 
 }

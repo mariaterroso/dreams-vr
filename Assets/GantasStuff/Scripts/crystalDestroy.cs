@@ -10,6 +10,9 @@ public class crystalDestroy : MonoBehaviour
     int score;
     public TextMeshProUGUI scoreText;
 
+    public AudioSource source;
+    public AudioClip clip;
+
 
 
     // Start is called before the first frame update
@@ -25,15 +28,26 @@ public class crystalDestroy : MonoBehaviour
     }
 
 
-    void OnCollisionEnter(Collision collision)
+    //void OnCollisionEnter(Collision collision)
+    //{
+    //    if (collision.gameObject.layer == 8)         
+    //    {
+    //        score++;
+    //        scoreText.text = score.ToString();
+    //        Destroy(collision.gameObject);
+    //    }
+
+    //}
+
+    private void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.layer == 8)         
+        if (other.gameObject.layer == 8)
         {
             score++;
             scoreText.text = score.ToString();
-            Destroy(collision.gameObject);
+            Destroy(other.gameObject);
+            source.PlayOneShot(clip);
         }
-
     }
 
 }
