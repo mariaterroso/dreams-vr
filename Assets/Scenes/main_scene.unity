@@ -28547,7 +28547,7 @@ PrefabInstance:
     - target: {fileID: -4668074107676032118, guid: 645b8b677028f9f4680cac6747f58e7a,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.2865
+      value: 0.2995
       objectReference: {fileID: 0}
     - target: {fileID: -4668074107676032118, guid: 645b8b677028f9f4680cac6747f58e7a,
         type: 3}
@@ -28894,7 +28894,7 @@ MonoBehaviour:
   m_FirstHoverEntered:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 572549795}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeColor, Assembly-CSharp
         m_MethodName: ChangeColorEnter
         m_Mode: 1
@@ -28909,7 +28909,7 @@ MonoBehaviour:
   m_LastHoverExited:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 572549795}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: ChangeColor, Assembly-CSharp
         m_MethodName: ChangeColorExit
         m_Mode: 1
@@ -29031,21 +29031,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 572549788}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &572549795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572549789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5e06edab5ca2484d8d010d24942dc2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetColorEnter: {r: 0.15686275, g: 0.5464934, b: 0.5464934, a: 0}
-  targetColorExit: {r: 0.53208524, g: 0.18458526, b: 0.8018868, a: 0}
-  targetColorClick: {r: 1, g: 0.04150939, b: 0.29855776, a: 0}
 --- !u!1 &575124949 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8e93199b68c7481408e1127bf733a33f,
@@ -31442,7 +31427,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 19a4d1a653ad1564493007ae089e3450,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 62.988796
+      value: 63.313
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19a4d1a653ad1564493007ae089e3450,
         type: 3}
@@ -31452,7 +31437,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 19a4d1a653ad1564493007ae089e3450,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 44.8829
+      value: 44.607
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 19a4d1a653ad1564493007ae089e3450,
         type: 3}
@@ -38874,20 +38859,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 619589606}
   m_PrefabAsset: {fileID: 0}
---- !u!64 &757644446
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 757644443}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 8510399176407502149, guid: 19a4d1a653ad1564493007ae089e3450, type: 3}
 --- !u!54 &757644449
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -38904,6 +38875,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!65 &757644450
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757644443}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.07219209, y: 0.07, z: 0.004}
+  m_Center: {x: -0.023040097, y: -0.023275582, z: 0.03}
 --- !u!1 &757883803 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 7e978c9ef95a53f4284b1b38dfcf8a8c,
@@ -59022,21 +59006,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &1131072538
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1131072526}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5e06edab5ca2484d8d010d24942dc2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetColorEnter: {r: 0, g: 0, b: 0, a: 0}
-  targetColorExit: {r: 0, g: 0, b: 0, a: 0}
-  targetColorClick: {r: 0, g: 0, b: 0, a: 0}
 --- !u!65 &1131072542
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -66712,6 +66681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1274215787}
+  - component: {fileID: 1274215788}
   m_Layer: 0
   m_Name: Statue
   m_TagString: Untagged
@@ -66736,6 +66706,21 @@ Transform:
   m_Father: {fileID: 8959229}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274215788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274215786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5e06edab5ca2484d8d010d24942dc2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetColorEnter: {r: 0.42300826, g: 0.19992878, b: 0.9056604, a: 0}
+  targetColorExit: {r: 1, g: 0.43803427, b: 0.0037735105, a: 0}
+  targetColorClick: {r: 1, g: 0.0037735105, b: 0.0037735105, a: 0}
 --- !u!1 &1275623461
 GameObject:
   m_ObjectHideFlags: 0
