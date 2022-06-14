@@ -7,7 +7,7 @@ using TMPro;
 public class crystalDestroy : MonoBehaviour
 {
 
-    int score;
+    public int score;
     public TextMeshProUGUI scoreText;
 
     public AudioSource source;
