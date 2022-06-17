@@ -3,7 +3,12 @@ guid: 5e60a66711c5099499e96b22e7eb68e7
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: medis.001_Baked
+    second: {fileID: 2100000, guid: 92c715957f69f8f40b912d43049f085d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
