@@ -3,7 +3,12 @@ guid: 8e93199b68c7481408e1127bf733a33f
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Stick_Baked
+    second: {fileID: 2100000, guid: 601d3a3b8c109e84189b7476f9c5b341, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

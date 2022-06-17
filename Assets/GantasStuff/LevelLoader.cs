@@ -19,7 +19,7 @@ public class LevelLoader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (crystalDestroy.score == 2) 
+        if (crystalDestroy.score == 8) 
         {
             LoadNextLevel();
         }
